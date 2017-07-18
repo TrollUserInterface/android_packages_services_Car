@@ -33,6 +33,11 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
 LOCAL_RESOURCE_DIR += frameworks/support/v7/appcompat/res
 LOCAL_RESOURCE_DIR += frameworks/support/v7/recyclerview/res
 LOCAL_RESOURCE_DIR += frameworks/support/v7/cardview/res
+
+# Viper Color Engine
+$(warning *** Including Viper Color Engine ***)
+LOCAL_RESOURCE_DIR += vendor/viper/colorengine/$(LOCAL_PATH)/res
+
 LOCAL_SDK_VERSION := current
 
 LOCAL_MANIFEST_FILE := AndroidManifest.xml
