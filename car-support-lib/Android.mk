@@ -34,9 +34,9 @@ LOCAL_RESOURCE_DIR += frameworks/support/v7/appcompat/res
 LOCAL_RESOURCE_DIR += frameworks/support/v7/recyclerview/res
 LOCAL_RESOURCE_DIR += frameworks/support/v7/cardview/res
 
-# Viper Color Engine
-$(warning *** Including Viper Color Engine ***)
-LOCAL_RESOURCE_DIR += vendor/viper/colorengine/$(LOCAL_PATH)/res
+# EcemUI Color Engine
+$(warning *** Including EcemUI Color Engine ***)
+LOCAL_RESOURCE_DIR += vendor/ecem/colorengine/$(LOCAL_PATH)/res
 
 LOCAL_SDK_VERSION := current
 
